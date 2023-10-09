@@ -1,0 +1,57 @@
+/* TopBox.css */
+.topBox {
+  /* Your existing styles for .topBox here */
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .list {
+    /* Your existing styles for .list here */
+
+    .listItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px; /* Adjust the margin as needed */
+
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img {
+          /* Your existing styles for img here */
+        }
+
+        .userTexts {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          .username {
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          .email {
+            font-size: 12px;
+            /* Add any styles you want for the email here */
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Add CSS to create a table-like layout */
+.user {
+  display: table;
+}
+
+.username,
+.email {
+  display: table-cell;
+  padding-right: 20px; /* Adjust the padding as needed */
+}

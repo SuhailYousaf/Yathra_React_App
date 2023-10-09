@@ -1,0 +1,81 @@
+/* Assuming you have defined $main-bg and $soft-color in your variables.scss file */
+/* Background Colors */
+:root {
+    --main-bg: #2a3447;
+    --soft-bg: #384256;
+    --dark-bg: #222b3c;
+  }
+  
+  /* Text Colors */
+  :root {
+    --main-color: white;
+    --soft-color: #ddd;
+    --dark-color: #2a3447;
+  }
+
+.add {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.724);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add .modal {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #ffffff; /* Replace with the actual background color value */
+  position: relative;
+}
+
+.add .modal h1 {
+  margin-bottom: 40px;
+  font-size: 24px;
+  /* Replace $soft-color with the actual text color value */
+  color: /* $soft-color */ #000000;
+}
+
+.add .modal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.add .modal form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  justify-content: space-between;
+}
+
+.add .modal form .item {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add .modal form .item label {
+  font-size: 14px;
+}
+
+.add .modal form .item input {
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 1px solid /* $soft-color */ #000000;
+  border-radius: 3px;
+}
+
+.add .modal button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}

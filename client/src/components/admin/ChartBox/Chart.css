@@ -1,0 +1,96 @@
+/* Import the responsive SCSS file */
+/* Assuming it's named "responsive.scss" and located in the "../../styles/" directory */
+@import "../../../styles/responsive.css";
+
+/* .chartBox */
+.chartBox {
+  display: flex;
+  height: 100%;
+}
+
+/* Media query for sm */
+@media (max-width: 768px) {
+  .chartBox {
+    flex-direction: column;
+  }
+}
+
+/* .boxInfo */
+.chartBox .boxInfo {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Media query for sm */
+@media (max-width: 768px) {
+  .chartBox .boxInfo {
+    gap: 20px;
+  }
+}
+
+/* .boxInfo .title */
+.chartBox .boxInfo .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Media query for xxl (1600px) */
+@media (min-width: 1600px) {
+  .chartBox .boxInfo .title {
+    font-size: 14px;
+  }
+}
+
+/* .boxInfo h1 */
+.chartBox .boxInfo h1 {
+  /* Your existing styles for h1 here */
+}
+
+/* Media query for xxl (1600px) */
+@media (min-width: 1600px) {
+  .chartBox .boxInfo h1 {
+    font-size: 20px;
+  }
+}
+
+/* .chartInfo */
+.chartBox .chartInfo {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .chartInfo .chart */
+.chartBox .chartInfo .chart {
+  width: 100%;
+  height: 100%;
+}
+
+/* .chartInfo .texts */
+.chartBox .chartInfo .texts {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+/* .chartInfo .texts .percentage */
+.chartBox .chartInfo .texts .percentage {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Media query for xxl (1600px) */
+@media (min-width: 1600px) {
+  .chartBox .chartInfo .texts .percentage {
+    font-size: 16px;
+  }
+}
+
+/* .chartInfo .texts .duration */
+.chartBox .chartInfo .texts .duration {
+  font-size: 14px;
+}

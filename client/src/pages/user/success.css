@@ -1,0 +1,18 @@
+/* In your CSS file or a style block in your component */
+.payment-success {
+    margin-top: 250px; /* Adjust the margin as needed */
+    text-align: center; /* Center-align the text horizontally */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: orangered; /* Set the text color to green */
+    background-color: #e6f7ea; /* Add a background color */
+    padding: 10px 20px; /* Add padding around the text */
+    border-radius: 8px; 
+   
+  }
+  
+  /* Optionally, you can add hover styles */
+  .payment-success:hover {
+    background-color: #c2f0c4; /* Change the background color on hover */
+  }
+  

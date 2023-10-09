@@ -1,0 +1,65 @@
+/* payment.css */
+
+/* Styles for the main container */
+.Appp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  /* Styles for the payment details container */
+  .payment-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Full width of the screen */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    margin-bottom: 20px; /* Add some space between payment details and CheckoutForm */
+  }
+  
+  /* Styles for the user's name */
+  .mt-2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Styles for the total amount */
+  .total-amount {
+    font-size: 1.2rem;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Styles for the number of guests */
+  .no-of-guests {
+    font-size: 1.2rem;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Styles for the booking date */
+  .booking-date {
+    font-size: 1.2rem;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+  /* Styles for the Confirm Bookings button */
+  .primary {
+    background-color: orange; /* Primary button color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .primary:hover {
+    background-color: orangered; /* Darker color on hover */
+  }
+  
+  /* Styles for the Elements container */
+  /* You can customize this further based on your needs */
+  

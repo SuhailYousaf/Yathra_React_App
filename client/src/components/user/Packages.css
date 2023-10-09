@@ -1,0 +1,30 @@
+/* Add this to your Main.css or create a separate CSS file */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .pagination .active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 100%;
+  }
+  /* Inline styles for the search bar container */
+.search-bar-container {
+    margin-top: 50px; /* Adjust the margin-top to control how far below the content the search bar appears */
+    text-align: center;
+    margin-right: 20px;
+  }
+  .text{
+    margin-top: 52px; /* Adjust the margin-top to control how far below the content the search bar appears */
+    text-align: center;
+  }
+  
+  
