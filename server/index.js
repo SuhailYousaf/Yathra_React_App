@@ -63,7 +63,9 @@ io.on("connection", (socket) => {
   });
 });
 
-const mongoURI ='mongodb://0.0.0.0:27017/toor_app';
+
+
+const mongoURI ='mongodb+srv://ysuhail444:12FEFE2I4zYCdOTf@cluster0.0vbxqzr.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose
   .connect(mongoURI, {
